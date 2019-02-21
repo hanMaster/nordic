@@ -1,0 +1,165 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+
+
+
+// ≥1024px
+@media screen and (max-width: 1024px)
+  .bottom_wood
+    display: none
+
+  
+
+
+
+// ≥992px
++media-breakpoint-down(md)
+
+
+// ≥768px
++media-breakpoint-down(sm)
+  
+
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@media (min-width: 350px) and (max-width: 419px)
+  .we
+    padding: 230px 10px
+  .first-section ul
+    display: none
+  .first-section .main_slider .slide h1
+    font-size: 22px
+    line-height: 24px
+  .prev
+    left: -150px
+    top: 180px
+  .next
+    left: 110px
+    top: 180px
+  .bottom_section p
+    font-size: 20px
+    line-height: 22px
+  .contacts
+    flex-direction: column
+  .projects .video_slider p
+    font-size: 12px
+    padding: 10px
+  .projects video
+    width: 90%
+    margin-bottom: 50px
+
+
+@media (min-width: 420px) and (max-width: 576px)
+  .first-section .main_slider .slide h1
+    font-size: 28px
+  .first-section ul
+    display: none
+  .prev
+    left: -190px
+    top: 60px
+  .next
+    left: 150px
+    top: 60px
+  .bottom_section p
+    font-size: 22px
+  .projects .video_slider p
+    font-size: 10px
+
+
+@media (min-width: 577px) and (max-width: 767px)
+  .first-section ul
+    display: none
+  .prev
+    left: -270px
+    top: 110px
+  .next
+    left: 230px
+    top: 110px
+  .bottom_section p
+    font-size: 24px
+  .first-section .main_slider .slide h1
+    font-size: 28px
+
+
+// ≤768px
+@media (min-width: 768px) and (max-width: 1023px)
+  .prev
+    left: -310px
+  .next
+    left: 270px
+  .first-section .main_slider .slide h1
+    font-size: 44px
+    line-height: 50px
+
+// ≤992px
+@media screen and (max-width: 992px)
+
+  .bottom_section
+    p
+      text-align: center
+  .comment
+    padding: 20px
+    p
+      font-size: 10px
+      line-height: 16px
+  .btn
+    font-size: 10px
+    line-height: 16px  
+  .kitchen
+    .kitchen_text
+      h2
+        font-size: 24px
+      p
+        font-size: 16px
+        line-height: 19px
+
+
+// ≤1200px
+@media (min-width: 993px) and (max-width: 1200px)
+  .comment
+    padding: 20px
+    p
+      font-size: 12px
+      line-height: 18px
+  .btn
+    font-size: 12px
+    line-height: 18px  
+  // .kitchen
+  //   .kitchen_frame
+  //     width: 100%
+  //     left: 0
+@media (min-width: 1200px) and (max-width: 2400px)
+  .comment
+    padding: 40px
+    p
+      font-size: 16px
+      line-height: 24px
+  .btn
+    font-size: 16px
+    line-height: 24px
+
+@media (min-width: 1024px) and (max-width: 1439px)
+  .kitchen
+    .kitchen_frame
+      top: 30px
+      width: 106%
+      left: -3%
+
+@media screen and (max-width: 1023px)
+  .kitchen
+    .kitchen_frame
+      top: 30px
+      width: 100%
+      left: 0
+      height: 255px
+    .kitchen_bottom_wood
+      display: none
