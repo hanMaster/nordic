@@ -1,13 +1,14 @@
 @import "vars"
 @import "fonts"
 @import "libs"
+@import "menu"
 
 ::placeholder
 	color: #666
 
-::selection
-	background-color: $accent
-	color: #fff
+// ::selection
+// 	background-color: $accent
+// 	color: #fff
 
 body
 	font-size: 16px
@@ -119,7 +120,7 @@ b, strong
     //   background: url('../img/wood.png') no-repeat
   .bottom_frame
     max-width: 1460px
-    height: 515px
+    // height: 515px
     padding: 30px
     border-style: dotted 
     border-color: rgba(255, 255, 255, 1) 
@@ -135,7 +136,7 @@ b, strong
     background: url('../img/bg1_section.png') no-repeat
     color: #ffffff
     max-width: 1400px
-    height: 455px
+    // height: 455px
     position: relative
     font-family: "MontserratSemiBold", sans-serif
     text-align: right
@@ -144,7 +145,7 @@ b, strong
     align-items: center
     font-size: 30px
     line-height: 40px
-
+		
     .bottom_wood
       width: 500px
       height: 500px
@@ -153,6 +154,9 @@ b, strong
       // border: 1px solid crimson
       position: absolute
       background: url('../img/wood2.png') no-repeat
+		p
+			margin: 0
+			padding: 3em 0
 
 .we
   padding: 96px
@@ -267,8 +271,6 @@ b, strong
     margin-bottom: 30px
     align-items: center
     position: relative
-    
-
   background: url('../img/we_bg.png')
   color: #fff
   .kitchen_block
