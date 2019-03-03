@@ -35,7 +35,9 @@
 		<header>
 			<!-- <h1 class="logo">Nordic</h1> -->
 			<img class="logo" src="img/logo.png" alt="Nordic" />
-			<input type="checkbox" id="nav-toggle" class="nav-toggle">
+			
+			<div class="wrap">
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
 			<nav>
 				<ul>
 					<li><a href="#">мы</a></li>
@@ -43,65 +45,55 @@
 					<li><a href="#">реализованные проекты</a></li>
 					<li><a href="#">партнеры</a></li>
 				</ul>
-				<!-- <div class="contacts dotted-gradient">
+				<div class="contacts dotted-gradient">
 					<div class="email">
 						<img src="./img/letter.png" alt="email" />
-						se24038856@mail.ru
+						se230480@mail.ru
 					</div>
 					<div class="phones">
-						+7(914)335-67-78 +7(914)335-67-78
+						+7(902)557-89-95 +7(908)992-95-77
 					</div>
-				</div> -->
+				</div>
 			</nav>
-			<label for="nav-toggle" class="nav-toggle-label">
-				<span></span>
-			</label>
-		</header>
+		</div>
+		<!-- wrap -->
 
+		<label for="nav-toggle" class="nav-toggle-label">
+			<span></span>
+		</label>
+	</header>
+		
     <section class="first-section">
+			<div class="section-contacts dotted-gradient">
+				<div class="email">
+					<img src="./img/letter.png" alt="email" />
+					se24038856@mail.ru
+				</div>
+				<div class="phones">
+					+7(914)335-67-78 <span>+7(914)335-67-78</span> 
+				</div>
+			</div>
+				
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <!-- <img class="img-responsive" src="img/logo.png" alt="Nordic" /> -->
-          </div>
-          <div class="col-md-8 offset-md-1 col-sm-6 offset-sm-0">
-
-            <!-- <div class="contacts dotted-gradient">
-              <div class="email">
-                <img src="./img/letter.png" alt="email" />
-                se24038856@mail.ru
-              </div>
-              <div class="phones">
-                +7(914)335-67-78 +7(914)335-67-78
-              </div>
-            </div> -->
-          </div>
-        </div>
-        <!--row -->
-        <div class="main_slider">
-          <div class="slide">
-            <div class="row">
-              <div class="col-xl-8 col-lg-12">
-                <h1>Семейная производственная студия nordic<span>vdk</span></h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-1 offset-lg-3 col-md-2 offset-md-1">
-                <h2>основана в 2016 году</h2>
-              </div>
-              <div class="col-8">
-                <p>
-                  Сегодня, миссия нашей студии ориентирована – на предметный
-                  дизайн и дизайн мебели абсолютно для всех людей в мире.
-                  NORDICvdk имеет эксклюзивный дизайн, защищённый авторскими
-                  правами. Продукция NORDICvdk ориентированно на дизайн и
-                  представляет собой уникальные предметы интерьера, отличающиеся
-                  разнообразием стилей и высококачественными материалами.
-                </p>
-              </div>
-              <!-- <div class="wood"></div> -->
-            </div>
-          </div>
+        <div class="main">
+					<div class="row">
+						<div class="col-xl-8 col-lg-12">
+							<h1>Семейная производственная студия nordic<span>vdk</span></h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-7 offset-xl-4 col-lg-8 offset-lg-4 col-xs-12 offset-xs-0">
+							<h2>основана в 2016 году</h2>
+							<p>
+								Сегодня, миссия нашей студии ориентирована – на предметный
+								дизайн и дизайн мебели абсолютно для всех людей в мире.
+								NORDICvdk имеет эксклюзивный дизайн, защищённый авторскими
+								правами. Продукция NORDICvdk ориентированно на дизайн и
+								представляет собой уникальные предметы интерьера, отличающиеся
+								разнообразием стилей и высококачественными материалами.
+							</p>
+						</div>
+					</div>
         </div>
         <!-- /.main_slider -->
       </div>
@@ -126,18 +118,15 @@
     </section>
 
     <section class="we">
-      <!-- <div class="frame">
-        <div class="frame_inside"></div>
-      </div> -->
       <h2>мы</h2>
       <p>
         Творец создал землю, затем людей, потом дизайнеров. В общем, все по
         своему подобию. Симбиоз дизайна и ремесла так получись МЫ.
       </p>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-6 col-xs-12">
+			<div class="frame"></div>
+      <div class="slider_wrapper">
+				
+				<div class="we_slider">
             <div class="block">
               <img src="img/we/we0.jpg" alt="we1" />
               <div class="comment">
@@ -151,10 +140,7 @@
               <!-- comment -->
             </div>
             <!-- block -->
-          </div>
-          <!-- col -->
 
-          <div class="col-lg-4 col-sm-6 col-xs-12">
             <div class="block">
               <img src="img/we/we1.jpg" alt="we1" />
               <div class="comment">
@@ -168,9 +154,7 @@
               <!-- comment -->
             </div>
             <!-- block -->
-          </div>
 
-          <div class="col-lg-4 col-sm-6 col-xs-12">
             <div class="block">
               <img src="img/we/we2.jpg" alt="we1" />
               <div class="comment">
@@ -184,10 +168,8 @@
               <!-- comment -->
             </div>
             <!-- block -->
-          </div>
-          <!-- col -->
-          <div class="col-lg-4 col-sm-6 col-xs-12">
-            <div class="block">
+
+						<div class="block">
               <img src="img/we/we3.jpg" alt="we1" />
               <div class="comment">
                 <p>
@@ -200,10 +182,8 @@
               <!-- comment -->
             </div>
             <!-- block -->
-          </div>
 
-          <div class="col-lg-4 col-sm-6 col-xs-12">
-            <div class="block">
+						<div class="block">
               <img src="img/we/we4.jpg" alt="we1" />
               <div class="comment">
                 <p>
@@ -216,9 +196,7 @@
               <!-- comment -->
             </div>
             <!-- block -->
-          </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="block">
               <img src="img/we/we5.jpg" alt="we1" />
               <div class="comment">
@@ -232,12 +210,10 @@
               <!-- comment -->
             </div>
             <!-- block -->
-          </div>
-          <!-- col -->
-        </div>
-        <!-- row -->
-        <!-- </div> -->
-        <button class="btn">Посмотреть еще работы</button>
+					</div> 
+					<!-- we_slider -->
+				</div><!-- slider_wrapper -->
+        <button class="btn" id="more">Посмотреть еще работы</button>
       </div>
     </section>
     <!-- /.we -->
@@ -255,10 +231,11 @@
               соединяющее инновационные технологии и простые экологичные
               материалы
             </p>
-          </div>
-          <div class="row">
+					</div>
+        </div>
+          <div class="row dotted_black">
             <div class="col-md-8 offset-md-2  col-sm-12 offset-sm-0">
-              <div class="dotted_black">
+              <div class="">
                 <p>
                   Мебель из раздела производятся серийно и продаются по
                   утверждённым ценам. Вся мебель NORDICvdk универсальна, то есть
@@ -288,115 +265,98 @@
             </div>
             <!-- /.col-8 offset-4 -->
           </div>
-        </div>
       </div>
     </section>
-
+<!--//////////// KITCHEN ///////////////////////////-->
     <section class="kitchen">
-      <div class="container">
-        <div class="row">
-          <div class="kitchen_frame"></div>
-          <div class="kitchen_bottom_wood"></div>
-          <div class="col-md-6 col-sm-12">
-            <img
-              class="kitchen_img"
-              src="./img/kitchen/kitchen1.jpg"
-              alt="kitchen1"
-            />
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="kitchen_text">
-              <h2>кухня white</h2>
-              <p>
-                Белоснежный цвет для кухни – это самый неоднозначный вопрос,
-                который на протяжении многих лет вызывает яростные споры.
-                Существует стереотип, что купить белую кухню - это обречь себя
-                на вечную и бесконечную уборку. К счастью, так считают лишь те,
-                кто так и не решился на покупку.
-              </p>
-              <button class="btn kitchen_btn">Узнать подробнее</button>
-            </div>
-          </div>
-        </div>
-        <!-- row -->
+			<div class="kitchen_slider">
+				<div class="frame">
+					<div class="kitchen_frm"></div>
+					<div class="img_block">
+						<img
+							class="kitchen_img"
+							src="./img/kitchen/kitchen1.jpg"
+							alt="kitchen1"
+						/>
+					</div>
+					<div class="text_block">
+						<h2>кухня white</h2>
+						<p>
+							Белоснежный цвет для кухни – это самый неоднозначный вопрос,
+							который на протяжении многих лет вызывает яростные споры.
+							Существует стереотип, что купить белую кухню - это обречь себя
+							на вечную и бесконечную уборку. К счастью, так считают лишь те,
+							кто так и не решился на покупку.
+						</p>
+						<button class="btn kitchen_btn">Узнать подробнее</button>
+					</div>
+				</div><!-- Frame -->
 
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="kitchen_text kitchen_right">
-              <h2>кухня nordic</h2>
-              <p>
-                Данную кухню даже сложно назвать кухней, потому, что это предмет
-                интерьера, который украшает собой гостиную студию. Варианты
-                исполнения могут быть различными: комбинации эмали, шпона,
-                натурального дерева Современной видение Скандинавскими
-                дизайнерами Мебель в кухонной зоне.
-              </p>
-              <button class="btn kitchen_btn">Узнать подробнее</button>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <img
-              class="kitchen_img"
-              src="./img/kitchen/kitchen2.jpg"
-              alt="kitchen1"
-            />
-          </div>
-        </div>
-        <!-- row -->
-        <div class="row">
-          <div class="kitchen_frame"></div>
-          <div class="kitchen_bottom_wood"></div>
-          <div class="col-md-6 col-sm-12">
-            <img
-              class="kitchen_img"
-              src="./img/kitchen/kitchen3.jpg"
-              alt="kitchen1"
-            />
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="kitchen_text">
-              <h2>кухня loft</h2>
-              <p>
-                Помещение большой площади, которое не стесняется своей истории.
-                Грубые материалы. Панорамные окна. Открытое пространство. Это
-                характерные проявления лофта в интерьере. Чтобы лучше уловить
-                настроение стиля нужно ознакомиться с его уникальной историей.
-              </p>
-              <button class="btn kitchen_btn">Узнать подробнее</button>
-            </div>
-          </div>
-        </div>
-        <!-- row -->
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="kitchen_text kitchen_right">
-              <h2>предел мечтаний gizmo</h2>
-              <p>
-                Желание уйти от лишних деталей в интерьере и повседневной суеты
-                навеяло человечеству создание идеальных дизайнерских решений.
-                Мебель в стиле минимализм декларирует однотонность и
-                использование простых геометрических форм, отсутствие элементов
-                декора
-              </p>
-              <button class="btn kitchen_btn">Узнать подробнее</button>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <img
-              class="kitchen_img"
-              src="./img/kitchen/kitchen4.jpg"
-              alt="kitchen1"
-            />
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-
-      <!-- <div class="kitchen_frame"></div>
-        <div class="kitchen_bottom_wood"></div>
-      </div> -->
-      <!-- kitchen_block -->
+				<div class="frame right">
+					<div class="kitchen_frm"></div>
+					<div class="img_block">
+						<img
+							class="kitchen_img"
+							src="./img/kitchen/kitchen2.jpg"
+							alt="kitchen1"
+						/>
+					</div>
+					<div class="text_block">
+						<h2>кухня nordic</h2>
+						<p>
+							Данную кухню даже сложно назвать кухней, потому, что это предмет
+							интерьера, который украшает собой гостиную студию. Варианты
+							исполнения могут быть различными: комбинации эмали, шпона,
+							натурального дерева Современной видение Скандинавскими
+							дизайнерами Мебель в кухонной зоне.
+						</p>
+						<button class="btn kitchen_btn">Узнать подробнее</button>
+					</div>
+				</div><!-- Frame -->
+				
+				<div class="frame">
+					<div class="kitchen_frm"></div>
+					<div class="img_block">
+						<img
+							class="kitchen_img"
+							src="./img/kitchen/kitchen3.jpg"
+							alt="kitchen1"
+						/>
+					</div>
+					<div class="text_block">
+						<h2>кухня loft</h2>
+						<p>
+							Помещение большой площади, которое не стесняется своей истории.
+							Грубые материалы. Панорамные окна. Открытое пространство. Это
+							характерные проявления лофта в интерьере. Чтобы лучше уловить
+							настроение стиля нужно ознакомиться с его уникальной историей.
+						</p>
+						<button class="btn kitchen_btn">Узнать подробнее</button>
+					</div>
+				</div><!-- Frame -->
+				
+				<div class="frame right">
+					<div class="kitchen_frm"></div>
+					<div class="img_block">
+							<img
+							class="kitchen_img"
+							src="./img/kitchen/kitchen4.jpg"
+							alt="kitchen1"
+						/>
+					</div>
+					<div class="text_block">
+							<h2>предел мечтаний gizmo</h2>
+							<p>
+								Желание уйти от лишних деталей в интерьере и повседневной суеты
+								навеяло человечеству создание идеальных дизайнерских решений.
+								Мебель в стиле минимализм декларирует однотонность и
+								использование простых геометрических форм, отсутствие элементов
+								декора
+							</p>
+							<button class="btn kitchen_btn">Узнать подробнее</button>
+					</div>
+				</div><!-- Frame -->
+				</div>
     </section>
     <!-- /.kitchen -->
 
@@ -405,13 +365,8 @@
       <p class="subheader">
         Наши работы выполнение совместно с дизайнерами Владивостока.
       </p>
-      <div class="btns">
-        <span class="prev"></span>
-        <span class="next"></span>
-      </div>
-
       <div class="video_slider">
-        <div>
+        <div class="video_slide">
           <div class="video">
             <video loop controls>
               <source
@@ -438,7 +393,7 @@
             тривиальных решений и новых знакомств.
           </p>
         </div>
-        <div>
+        <div class="video_slide">
           <div class="video">
             <video loop controls>
               <source
@@ -470,7 +425,7 @@
             предметы по очень выгодным условиям.
           </p>
         </div>
-        <div>
+        <div class="video_slide">
           <div class="video">
             <video loop controls>
               <source
@@ -502,7 +457,7 @@
             предметы по очень выгодным условиям.
           </p>
         </div>
-        <div>
+        <div class="video_slide">
           <div class="video">
             <video loop controls>
               <source
@@ -534,7 +489,7 @@
             предметы по очень выгодным условиям.
           </p>
         </div>
-        <div>
+        <div class="video_slide">
           <div class="video">
             <video loop controls>
               <source
@@ -567,10 +522,15 @@
           </p>
         </div>
       </div>
-      <!-- <div class="frm"> -->
-      <div class="projects_frame"></div>
-      <!-- </div> -->
-      <h2 class="partners">партнеры</h2>
+			<div class="projects_frame"></div>
+			<button class="btn projects_btn">Подробнее</button>
+
+
+
+<!-- PARTNERS -->
+
+			<h2 class="partners">партнеры</h2>
+
       <div class="partners_band">
         <div class="partners_item">
           <img src="./img/partners/partner1.png" alt="" />
@@ -607,22 +567,19 @@
     </section>
 
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-sm-12 footer1">
-            <p>&copy; 2019 Разработка Халепов Андрей</p>
-          </div>
-          <div class="col-md-2 col-sm-5">
-            <img class="logo" src="./img/footer_logo.png" alt="Nordic" />
-          </div>
-          <div class="col-md-5 col-sm-7">
-            <div class="instagram">
-              <img src="./img/instagram.png" alt="nordic_vdk" />
-              <h4>nordic_vdk</h4>
-            </div>
-          </div>
-        </div>
-      </div>
+			<div class="copy">
+				<p>&copy; 2019 Разработка Халепов Андрей</p>
+			</div>
+			<div class="nordic">
+				<div class="footer_logo">
+					<img class="logo" src="./img/footer_logo.png" alt="Nordic" />
+				</div>
+				<div class="instagram">
+					<img src="./img/instagram.png" alt="nordic_vdk" />
+					<h4>nordic_vdk</h4>
+				</div>
+			</div>
+
     </footer>
 
     <script src="js/scripts.min.js"></script>
